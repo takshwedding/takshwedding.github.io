@@ -103,17 +103,17 @@
 									<!-- <a href="#" class="btn btn-default btn-sm">Save the date
 									</a> -->
 								</p>
-								
+
 							</div>
-							
+
 						</div>
 						</p>
 					</div>
 				</div>
 			</div>
+		</header>
+		
 	</div>
-	</div>
-	</header>
 
 	<div id="fh5co-couple">
 		<div class="container">
@@ -626,17 +626,8 @@
 							Feel free to contact us if you have any questions! :)
 						</p>
 						<small class="block">&copy; 2023 Akshay Menon. All Rights Reserved.</small>
-						<!-- <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>
-							Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small> -->
 					</p>
-					<!-- <p>
-					<ul class="fh5co-social-icons">
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-linkedin"></i></a></li>
-						<li><a href="#"><i class="icon-dribbble"></i></a></li>
-					</ul>
-					</p> -->
+					
 				</div>
 			</div>
 
@@ -707,10 +698,10 @@
 
 		function redirectToGoogleCalendar(location) {
 			console.log(location);
-			if (location == 'Kolkata'){
+			if (location == 'Kolkata') {
 				var eventDetails = getKolkataEventDetails(); // Implement the function to get event details
 			}
-			else if (location == 'Kochi'){
+			else if (location == 'Kochi') {
 				var eventDetails = getKochiEventDetails(); // Implement the function to get event details
 			}
 			var googleCalendarUrl = "https://www.google.com/calendar/render?action=TEMPLATE&" + eventDetails;
@@ -718,10 +709,10 @@
 		}
 
 		function redirectToAppleCalendar(location) {
-			if (location == 'Kolkata'){
+			if (location == 'Kolkata') {
 				var eventDetails = getKolkataEventDetails(); // Implement the function to get event details
 			}
-			else if (location == 'Kochi'){
+			else if (location == 'Kochi') {
 				var eventDetails = getKochiEventDetails(); // Implement the function to get event details
 			}
 			var appleCalendarUrl = "data:text/calendar;charset=utf-8," + encodeURIComponent(eventDetails);
