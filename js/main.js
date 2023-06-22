@@ -228,13 +228,7 @@
 		counterWayPoint();
 	});
 
-	$(function () {
-		for (let i = 1; i <= 90; i++) {
-			$("#fh5co-gallery-list").append(
-				'<li class="one-third animate-box image-popup" data-animate-effect="fadeIn" style="background-image: url(\'images/pre-wedding/pre-wedding (' + i + ').jpg\'); "><a href="images/pre-wedding/pre-wedding (' + i + ').jpg"></a></li>'
-			);
-		}
-	});
+	
 
 
 }());
