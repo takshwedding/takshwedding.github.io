@@ -1840,4 +1840,35 @@ form label {
   opacity: 0;
 }
 
+/* CSS for the calendar buttons */
+.calendar-icon {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#googleCalendarBtn {
+	background-color: #4285F4;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 4px;
+	/* cursor: pointer; */
+}
+
+#appleCalendarBtn {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 4px;
+	/* cursor: pointer; */
+}
+
+#googleCalendarBtn:hover,
+#appleCalendarBtn:hover {
+	opacity: 0.8;
+}
+
 /*# sourceMappingURL=style.css.map */
